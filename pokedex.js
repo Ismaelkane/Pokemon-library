@@ -107,21 +107,7 @@ document.getElementById("poke-desc").innerText=pokedex[this.id]["fact"]
 
 
 
-/*let poken = document.getElementById("poke-description");
-while(poken.firstChild)
-{
-poken.firstChild.remove();
-}
 
-let pokenamee= document.createElement("div");
-pokenamee.innerText='name: '+pokedex[this.id]["name"];
-
-poken.classList.add("poken");
-poken.append(pokenamee);
-
-//poken.innerText=pokedex[this.id]["name"];
-
-*/
 
 
 
@@ -187,21 +173,7 @@ document.getElementById("poke-desc").innerText=pokedex[pokenum]["fact"]
 
 
 
-/*let poken = document.getElementById("poke-description");
-while(poken.firstChild)
-{
-poken.firstChild.remove();
-}
 
-let pokenamee= document.createElement("div");
-pokenamee.innerText='name: '+pokedex[this.id]["name"];
-
-poken.classList.add("poken");
-poken.append(pokenamee);
-
-//poken.innerText=pokedex[this.id]["name"];
-
-*/
 
 
 
