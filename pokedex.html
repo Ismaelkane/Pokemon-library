@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="pokedex.css">
+    <script src="pokedex.js"></script>
+ 
+</head>
+<body>
+    <h1>Pokedex</h1>
+
+    <div id="box-content">
+<div id="poke-info">
+
+<img id= "pokeimg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png" alt="">
+<div id="poke-types">
+
+<span class="type-box grass" style="padding: 4px; margin: 5px;
+border:2px  solid white;
+border-radius: 10px;">Grass</span><span class="type-box poison" style="padding: 4px; ;
+    margin: 5px;
+    border:2px  solid white;
+    border-radius: 10px;"> poison</span>
+
+</div>
+
+<div id="pokename">Name: bulbasaur</div>
+<div id="poke-desc"></div>
+<div id="btn-div">
+    <button onclick="randpoke(this)" id="btn"> Random Pokemon</button>
+    
+    </div>
+    
+</div>
+    
+<!-- right side of pokedex other side is the left-->
+<div id="poke-list">
+    
+   <button id="search btn" onclick="search()" style="float: right">search</button>
+    <div style="overflow: hidden; padding-right: .5em;">
+       <input id= "search" type="text" style="width: 100%;" />
+    </div>
+
+    </div>
+</div>
+
+
+
+</div>
+
+<!--
+<div id="btn-div">
+<button onclick="randpoke(this)" id="btn"> Random Pokemon</button>
+
+</div>
+
+-->
+
+
+
+</body>
+</html>
